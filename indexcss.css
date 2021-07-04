@@ -1,33 +1,26 @@
-body{
-
+body {
     background-color: rgb(255, 255, 255);
 }
 
-header h1{
-
+header h1 {
     font-family: 'Dancing Script', cursive;
     color: rgb(46, 45, 45);
     text-align: center;
     font-size: 50px;
-
 }
 
-.navbar{
-
+.navbar {
     border: 2px solid black;
-
     background-color: rgb(46, 45, 45);
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
-.navbar ul{
-
+.navbar ul {
     overflow: auto;
 }
-.navbar li{
 
+.navbar li {
     float: left;
     list-style: none;
     padding: 2px 2%;
@@ -35,155 +28,138 @@ header h1{
     margin-top: 2px;
 
 }
-
-
    
-   .navbar li a{
-       text-decoration: none;
-       color: #ffffff;
-   }
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
-   .searchbox{
-       float:right;
-       margin-right: 11%;
+.searchbox {
+    float:right;
+    margin-right: 11%;
 
        
-   }
+}
 
-   .navbar input{
-
+.navbar input {
     border-radius: 8px;
     padding: 1px;
     margin-top: 2px;
     margin-bottom: 2px;
     box-sizing: border-box;
     height: 26px;
-   }
+}
 
-   .btn{
-       border-radius: 8px;
-       background-color: rgb(105, 105, 105);
-       color: white;
-       height: 26px;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   }
+.btn {
+    border-radius: 8px;
+    background-color: rgb(105, 105, 105);
+    color: white;
+    height: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-   .btn:hover{
-       background-color: azure;
-       color: black;
-       height: 26px;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   }
+.btn:hover {
+    background-color: azure;
+    color: black;
+    height: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-   article h4{
-
+article h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     padding-left: 20px;
-   }
+}
 
-   .main_container{
-
+.main_container {
     float:left;
     margin-top: 20px;
     /* border: 2px solid black; */
     width:50%;
-    
+}
 
-
-   }
-
-   #aboutroshanpara{
-
+#aboutroshanpara {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     padding-left:20px;
     padding-bottom: 10px;
-   }
+}
 
-   .myimg{
-
+.myimg {
     /* margin-left: 20px; */
     padding-left: 20px;
     padding-bottom: 10px;
     float:left;
-   }
+}
 
-   #quote{
-
+#quote {
     float: right;
     width: 420px;
     margin-left: 8px;
     font-family: 'Dancing Script', cursive;
     font-size: 22px;
     margin-bottom: 28px;
-   }
+}
 
-   .aside_container{
-
+.aside_container {
     float: right;
     margin-top: 20px;
     margin-right: 130px; 
     margin-left: 5px;
-    
     padding: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.n_pics {
+    width: fit-content;
+    margin: auto;
+    padding-left:10px;
+    padding-right:10px;
+}
 
+.p_pics {
+    width: fit-content;
+    margin: auto;
+}
 
-   }
+.nature {
+    /* border:2px solid black; */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
 
-   .n_pics{
-       width: fit-content;
-       margin: auto;
-       padding-left:10px;
-       padding-right:10px;
-   }
+.portrait {
+    /* border:2px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
 
-   .p_pics{
-       width: fit-content;
-       margin: auto;
-   }
+.avaiation {
+    /* border:2px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 
-   .nature{
-       /* border:2px solid black; */
-       margin-bottom: 10px;
-       box-sizing: border-box;
-   }
+}
 
-   .portrait{
-       /* border:2px solid black; */
-       margin-top: 10px;
-       margin-bottom: 10px;
-       box-sizing: border-box;
-   }
+.wildlife {
+    /* border: 2px solid black; */
+}
 
-   .avaiation{
-       /* border:2px solid black; */
-       margin-top: 10px;
-       margin-bottom: 10px;
-       box-sizing: border-box;
+.aside_container h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 
-   }
+.p_para {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1% 1%;
+}
 
-   .wildlife{
-       /* border: 2px solid black; */
-   }
-
-   .aside_container h4{
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-       text-align: center;
-   }
-
-   .p_para{
-       text-align: center;
-       font-family: Verdana, Geneva, Tahoma, sans-serif;
-       padding: 1% 1%;
-   }
-
-   .footer{
-
-    border: 2px solid black;;
-   }
+.footer {
+border: 2px solid black;;
+}
 
 
